@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Afacad", serif;
+
+}
+header{
+    height: auto;
+    width: 100%;
+    background: rgba(219, 148, 0, 1);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.headings{
+    position: relative;
+    top: 8px;
+}
+.headings h1{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "M PLUS Rounded 1c", serif;
+}
+.phone{
+    display: flex;
+    position: relative;
+    right: 50px;
+    align-items: center;
+}
+.phone h1{
+    font-size: 20px;
+    color:  rgba(255, 255, 255, 1);
+}
+.hero{
+    width: 100%;
+    height: 10vh;
+    background: rgba(29, 85, 88, 1);
+    display: flex;
+    justify-content: space-between; 
+    padding: 30px 60px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.icons img{
+    cursor: pointer;
+}
+.navlinks a{
+    display: inline-block;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-size: 15.47px;
+    margin-left: 20px;
+    font-weight: 400px;
+}
+.navlinks a:hover{
+    text-decoration: underline;
+}
+.content{
+    height: 100vh;
+    background:  rgba(29, 85, 88, 1);
+    padding: 120px 50px;
+}
+.h-content{
+    width: 470px;
+    height: 450px;
+}
+.h-content p{
+    font-size: 15.47px;
+    border: 1px solid transparent;
+    background-color: rgba(240, 248, 255, 0.167);
+    border-radius: 29px;
+    padding: 5px;
+    width: 200px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: lighter;
+    text-align: center;
+}
+.h-content h1{
+    font-size: 64.52px;
+    color: rgba(255, 255, 255, 1);
+}
+.h-content h3{
+    font-size: 17px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: lighter;
+}
+.h-content button{
+    padding: 10px;
+    border-radius: 29px;
+    width: 196px;
+    height: 57px;
+    font-size: 15.47px;
+    border: 0px solid;
+    background-color: rgba(219, 148, 0, 1);
+    transition: .5s ease;
+    cursor: pointer;
+}
+.h-content button:hover{
+    background-color: black;
+    color: white;
+}
+.txt{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.txt h5{
+    font-size: 18.26px;
+    color: rgba(255, 255, 255, 1);
+}
+.imgs{
+    position: relative;
+    width: 716px;
+    height: 575px;
+    left: 480px;
+    bottom: 600px;
+}
+.images{
+    position: relative;
+    left: 80px;
+    bottom: -90px;
+}
+.imgs{
+    gap: 14px;
+}
+.arrows{
+    position: relative;
+    left: 150px;
+    top: 110px;
+}
+.arrows i{
+    color: white;
+    margin: 10px;
+    padding: 10px 25px;
+    border: 0px solid ;
+    border-radius: 29px;
+    transition: .5s ease;
+    background-color: rgba(54, 102, 105, 1);
+    cursor: pointer;
+}
+.arrows i:hover{
+    background-color: rgba(219, 148, 0, 1);
+    color: white;
+}
+.arrows i:focus{
+    background-color: rgba(219, 148, 0, 1);
+    color: white;
+}
+.home{
+    height: 200vh;
+    background-color: rgba(255, 255, 255, 1);
+}
+.home-icons{
+    display: flex;
+    position: relative;
+    top: 58px;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+}
+.ship{
+    justify-content: center;
+    align-items: center;
+}
+.cntnt{
+    width: 1150px;
+    height: auto;
+    position: relative;
+    left: 5%;
+    top: 200px;
+    display: flex;
+    border: none;
+    gap: 23px;
+}
+.table{
+    height: auto;
+    width: 630px;
+}
+.chair{
+    height: 630px;
+    width: 520px;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 45px;
+}
+.center{
+    width: 630px;
+    height: auto;
+    border-radius: 45px;
+    display: flex;
+    justify-content: space-between;
+    gap: 23px;
+    padding: 50px;
+    background-color: rgba(245, 245, 245, 1);
+}
+.para p{
+    color: rgba(111, 111, 111, 1);
+}
+.para h1{
+    color: rgba(111, 111, 111, 1);
+}
+.para a{
+    display: inline-block;
+    text-decoration: underline;
+    color: rgba(13, 79, 83, 1);
+    transition: .5s ease;
+}
+.para a:hover{
+    transform: translateY(-3px);
+}
+.lamp{
+    width: 630px;
+    height: 290px;
+    gap: 23px;
+    display: flex;
+    border: none;
+    position: relative;
+    top: 20px;
+}
+.light{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+    height: 290px;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 45px;
+}
+.offer{
+    width: 320px;
+    height: 290px;
+    background-color: rgba(245, 245, 245, 1);   
+    border-radius: 45px;
+    background-color: rgba(29, 85, 88, 1);
+    text-align: center;
+}
+.offer p{
+    position: relative;
+    top: 45%;
+    border-radius: 20px;
+    background-color: rgba(247, 164, 0, 1);
+    padding: 7px 20px;
+    width: 200px;
+    left: 55px;
+}
+.offer h1{
+    position: relative;
+    top: 45%;
+    color: rgba(255, 255, 255, 1);
+    font-size: 32px;
+}
+.chair .para{
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+.chair img{
+    position: relative;
+    left: 100px;
+}
